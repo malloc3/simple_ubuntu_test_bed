@@ -1,0 +1,4 @@
+name: simple_ubuntu_test_conda_environ
+channels:
+  - defaults
+prefix: /opt/miniconda3/envs/simple_ubuntu_test_conda_environ
