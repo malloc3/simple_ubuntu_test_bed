@@ -1,0 +1,13 @@
+#!/bin/bash  -l
+#SBATCH --nodes=1 --ntasks-per-node 12
+#  this is asking for 1 node, with 12 cores
+#     the -l is needed on first line if you want to use modules
+
+module load intel/18
+
+cd $SLURM_SUBMIT_DIR
+
+/bin/hostname
+
+mpirun -np $SLURM_NPROCS ./a.out >& logfile
+
