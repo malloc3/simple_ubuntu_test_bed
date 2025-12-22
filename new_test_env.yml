@@ -9,7 +9,7 @@ dependencies:
   - expat=2.7.1
   - libcxx=19.1.7
   - libffi=3.4.4
-  - libgfortran=5.0.0
+  - libgfortran
   - libgfortran5=11.3.0
   - libmpdec=4.0.0
   - libopenblas=0.3.29
