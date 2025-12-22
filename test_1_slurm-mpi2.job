@@ -14,7 +14,7 @@
 # Typically we will submit our slurm.job file from the right directory.  However
 # it is probably good to move to the right folder just in case!
 run_files_top_directory="/home/cmallory/simple_ubuntu_test_bed"  # This variable can be changed to hold the directory where stuff is!
-cd $run_directory # THis will set the current direcotry to the run_files_top_directory.    
+cd $run_files_top_directory # THis will set the current direcotry to the run_files_top_directory.    
 
 module load anaconda
 ls
