@@ -4,7 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - blas=1.0=openblas
-  - bottleneck=1.4.2=py313ha0efc16_0
+  - bottleneck=1.4.2
   - bzip2=1.0.8=h6c40b1e_6
   - ca-certificates=2025.7.15=hecd8cb5_0
   - expat=2.7.1=h6d0c2b6_0
