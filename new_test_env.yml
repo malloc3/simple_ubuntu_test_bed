@@ -1,6 +1,7 @@
 name: simple_ubuntu_test_conda_environ
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - blas=1.0
   - bottleneck=1.4.2
