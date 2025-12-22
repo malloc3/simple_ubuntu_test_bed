@@ -26,3 +26,5 @@ sh test_run_file_1.sh # This runs the .sh run file that handles my scripts.  THi
 /bin/hostname  # This reports what specific node this code is running on!
 time mpirun -np $SLURM_NTASKS  ~pcw/vasp # This will report the actual time that was taken to run my script!
 
+echo "Job finished normally"
+scancel $SLURM_JOB_ID
