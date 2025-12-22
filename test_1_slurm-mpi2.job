@@ -17,7 +17,10 @@ run_files_top_directory="/home/cmallory/simple_ubuntu_test_bed"  # This variable
 cd $run_files_top_directory # THis will set the current direcotry to the run_files_top_directory.    
 
 module load anaconda
-ls
+echo "It should print the working path from the job run file now"
+pwd
+echo "Finished printing the current path"
+
 sh test_run_file_1.sh # This runs the .sh run file that handles my scripts.  THis ins't totally needed cause at the end of the day the slurm job is functionally the same.  However I think it will help organize my scripts and keep the slurm jobs a bit more simple
 
 /bin/hostname  # This reports what specific node this code is running on!
